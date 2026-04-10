@@ -1,0 +1,43 @@
+2026.04.09 13:58:25 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP' for client Visual Studio Code 1.110.0.[0m
+2026.04.09 13:58:25 INFO  Memory monitor started[0m
+2026.04.09 13:58:25 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.04.09 14:01:17 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:01:20 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:30:29 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:32:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:32:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+Apr 09, 2026 2:32:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2026.04.09 14:32:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:32:59 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:32:59 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:32:59 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:32:59 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:32:59 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:33:31 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:34:20 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 14:34:49 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.09 23:15:11 INFO  Shutting down server[0m
+2026.04.09 23:15:11 INFO  Memory monitor stopped[0m
+2026.04.09 23:15:11 INFO  shutting down Metals[0m
+2026.04.09 23:15:11 INFO  Exiting server[0m
+2026.04.09 23:15:11 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m

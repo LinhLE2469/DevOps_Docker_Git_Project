@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple API - Landing Page</title>
+    <style>
+      body{font-family:Arial,Helvetica,sans-serif;max-width:800px;margin:40px auto;padding:0 20px}
+      header{margin-bottom:20px}
+      pre{background:#f5f5f5;padding:10px;border-radius:4px}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Simple API</h1>
+      <p>This is the landing page served by the reverse proxy container.</p>
+    </header>
+    <section>
+      <h2>API</h2>
+      <p>Try the backend API at <a href="/">/</a> or <a href="/departments">/departments</a>.</p>
+      <p>Note: the root API is proxied to the backend.</p>
+    </section>
+    <footer>
+      <p>Containerized with nginx reverse proxy.</p>
+    </footer>
+  </body>
+</html>
