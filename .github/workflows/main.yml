@@ -29,13 +29,14 @@ jobs:
   # define job to build and publish docker image
   build-and-push-docker-image:
     needs: test-backend
-    # run only when code is compiling and tests are passing
+    # run only when code is compiling and tests are passing ( Only runs if test-backend succeeds)
     runs-on: ubuntu-24.04
-
+    # Runs on Ubuntu 24.04 virtual machine
     # steps to perform in job
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+    # pull code from github again
 
       - name: Login to DockerHub
         run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
@@ -64,7 +65,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           # relative path to the place where source code with Dockerfile is located
-          context: ./Docker_Compose/proxy
+          context: ./proxy
           # Note: tags has to be all lower-case
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-httpd:latest
           # build on feature branches, push only on main branch
