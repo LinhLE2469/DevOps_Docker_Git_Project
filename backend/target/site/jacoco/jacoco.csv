@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+simple-api,fr.takima.training.simpleapi.model,Department,7,17,0,0,2,5,2,5,2,5
+simple-api,fr.takima.training.simpleapi.model,Student,0,31,0,0,0,9,0,9,0,9
+simple-api,fr.takima.training.simpleapi,Application,8,0,0,0,3,0,2,0,2,0
+simple-api,fr.takima.training.simpleapi.controller,DepartmentController,65,0,4,0,17,0,7,0,5,0
+simple-api,fr.takima.training.simpleapi.controller,GreetingController.Greeting,9,0,0,0,1,0,1,0,1,0
+simple-api,fr.takima.training.simpleapi.controller,StudentController,121,0,16,0,32,0,14,0,6,0
+simple-api,fr.takima.training.simpleapi.controller,GreetingController,23,0,0,0,3,0,2,0,2,0

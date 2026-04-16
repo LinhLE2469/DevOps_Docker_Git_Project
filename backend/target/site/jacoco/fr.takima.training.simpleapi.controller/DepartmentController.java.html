@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DepartmentController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">simple-api</a> &gt; <a href="index.source.html" class="el_package">fr.takima.training.simpleapi.controller</a> &gt; <span class="el_source">DepartmentController.java</span></div><h1>DepartmentController.java</h1><pre class="source lang-java linenums">package fr.takima.training.simpleapi.controller;
+
+import fr.takima.training.simpleapi.model.Department;
+import fr.takima.training.simpleapi.model.Student;
+import fr.takima.training.simpleapi.repository.DepartmentRepository;
+import fr.takima.training.simpleapi.repository.StudentRepository;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
+
+@RestController
+@RequestMapping(&quot;/departments&quot;)
+public class DepartmentController {
+
+    private final StudentRepository studentRepository;
+    private final DepartmentRepository departmentRepository;
+
+<span class="nc" id="L20">    public DepartmentController(StudentRepository studentRepository, DepartmentRepository departmentRepository) {</span>
+<span class="nc" id="L21">        this.studentRepository = studentRepository;</span>
+<span class="nc" id="L22">        this.departmentRepository = departmentRepository;</span>
+<span class="nc" id="L23">    }</span>
+
+    @GetMapping(&quot;/{name}&quot;)
+    public ResponseEntity&lt;Department&gt; getDepartmentByName(@PathVariable String name) {
+<span class="nc" id="L27">        Optional&lt;Department&gt; department = departmentRepository.findByName(name);</span>
+<span class="nc" id="L28">        return department.map(ResponseEntity::ok)</span>
+<span class="nc" id="L29">                .orElseGet(() -&gt; ResponseEntity.notFound().build());</span>
+    }
+
+    @GetMapping(&quot;/{name}/students&quot;)
+    public ResponseEntity&lt;List&lt;Student&gt;&gt; getStudentsByDepartment(@PathVariable String name) {
+<span class="nc" id="L34">        Optional&lt;Department&gt; department = departmentRepository.findByName(name);</span>
+<span class="nc bnc" id="L35" title="All 2 branches missed.">        if (department.isEmpty()) {</span>
+<span class="nc" id="L36">            return ResponseEntity.notFound().build();</span>
+        }
+<span class="nc" id="L38">        List&lt;Student&gt; students = studentRepository.findByDepartment_Name(name);</span>
+<span class="nc" id="L39">        return ResponseEntity.ok(students);</span>
+    }
+
+    @GetMapping(&quot;/{name}/count&quot;)
+    public ResponseEntity&lt;Long&gt; getStudentCountByDepartment(@PathVariable String name) {
+<span class="nc" id="L44">        Optional&lt;Department&gt; department = departmentRepository.findByName(name);</span>
+<span class="nc bnc" id="L45" title="All 2 branches missed.">        if (department.isEmpty()) {</span>
+<span class="nc" id="L46">            return ResponseEntity.notFound().build();</span>
+        }
+<span class="nc" id="L48">        long count = studentRepository.findByDepartment_Name(name).size();</span>
+<span class="nc" id="L49">        return ResponseEntity.ok(count);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

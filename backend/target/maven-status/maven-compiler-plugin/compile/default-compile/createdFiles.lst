@@ -1,0 +1,9 @@
+fr/takima/training/simpleapi/repository/StudentRepository.class
+fr/takima/training/simpleapi/repository/DepartmentRepository.class
+fr/takima/training/simpleapi/Application.class
+fr/takima/training/simpleapi/controller/DepartmentController.class
+fr/takima/training/simpleapi/controller/GreetingController.class
+fr/takima/training/simpleapi/model/Department.class
+fr/takima/training/simpleapi/controller/GreetingController$Greeting.class
+fr/takima/training/simpleapi/controller/StudentController.class
+fr/takima/training/simpleapi/model/Student.class

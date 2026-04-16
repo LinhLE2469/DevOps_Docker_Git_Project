@@ -1,7 +1,7 @@
 package fr.takima.training.simpleapi.model;
 
 import jakarta.persistence.*;
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 @Table(name = "students")
@@ -13,13 +13,14 @@ public class Student {
 
     @ManyToOne
     @JoinColumn(name = "department_id", nullable = false)
-    @JsonBackReference
     private Department department;
 
     @Column(name = "first_name", nullable = false)
+    @JsonProperty("firstname")
     private String firstName;
 
     @Column(name = "last_name", nullable = false)
+    @JsonProperty("lastname")
     private String lastName;
 
     public Student() {}

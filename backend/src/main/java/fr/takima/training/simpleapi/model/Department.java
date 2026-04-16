@@ -1,8 +1,8 @@
 package fr.takima.training.simpleapi.model;
 
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.List;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name = "departments")
@@ -16,7 +16,7 @@ public class Department {
     private String name;
 
     @OneToMany(mappedBy = "department")
-    @JsonManagedReference
+    @JsonIgnore
     private List<Student> students;
 
     public Department() {}

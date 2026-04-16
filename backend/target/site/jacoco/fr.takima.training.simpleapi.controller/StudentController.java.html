@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>StudentController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">simple-api</a> &gt; <a href="index.source.html" class="el_package">fr.takima.training.simpleapi.controller</a> &gt; <span class="el_source">StudentController.java</span></div><h1>StudentController.java</h1><pre class="source lang-java linenums">package fr.takima.training.simpleapi.controller;
+
+import fr.takima.training.simpleapi.model.Student;
+import fr.takima.training.simpleapi.repository.StudentRepository;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import java.net.URI;
+import java.util.Optional;
+
+@RestController
+@RequestMapping(&quot;/students&quot;)
+public class StudentController {
+
+    private final StudentRepository studentRepository;
+
+<span class="nc" id="L19">    public StudentController(StudentRepository studentRepository) {</span>
+<span class="nc" id="L20">        this.studentRepository = studentRepository;</span>
+<span class="nc" id="L21">    }</span>
+
+    @GetMapping(&quot;/{id}&quot;)
+    public ResponseEntity&lt;Student&gt; getStudentById(@PathVariable Long id) {
+<span class="nc" id="L25">        Optional&lt;Student&gt; student = studentRepository.findById(id);</span>
+<span class="nc" id="L26">        return student.map(ResponseEntity::ok)</span>
+<span class="nc" id="L27">                .orElseGet(() -&gt; ResponseEntity.notFound().build());</span>
+    }
+
+    @PostMapping
+    public ResponseEntity&lt;Student&gt; createStudent(@RequestBody Student student) {
+<span class="nc bnc" id="L32" title="All 4 branches missed.">        if (student.getLastName() == null || student.getLastName().isEmpty()) {</span>
+<span class="nc" id="L33">            return ResponseEntity.badRequest().build();</span>
+        }
+<span class="nc bnc" id="L35" title="All 2 branches missed.">        if (student.getDepartment() == null) {</span>
+<span class="nc" id="L36">            return ResponseEntity.badRequest().build();</span>
+        }
+<span class="nc" id="L38">        Student savedStudent = studentRepository.save(student);</span>
+        URI location = ServletUriComponentsBuilder
+<span class="nc" id="L40">                .fromCurrentRequest()</span>
+<span class="nc" id="L41">                .path(&quot;/{id}&quot;)</span>
+<span class="nc" id="L42">                .buildAndExpand(savedStudent.getId())</span>
+<span class="nc" id="L43">                .toUri();</span>
+<span class="nc" id="L44">        return ResponseEntity.created(location).body(savedStudent);</span>
+    }
+
+    @PutMapping(&quot;/{id}&quot;)
+    public ResponseEntity&lt;Student&gt; updateStudent(@PathVariable Long id, @RequestBody Student studentDetails) {
+<span class="nc" id="L49">        Optional&lt;Student&gt; optionalStudent = studentRepository.findById(id);</span>
+<span class="nc bnc" id="L50" title="All 2 branches missed.">        if (optionalStudent.isEmpty()) {</span>
+<span class="nc" id="L51">            return ResponseEntity.notFound().build();</span>
+        }
+<span class="nc" id="L53">        Student student = optionalStudent.get();</span>
+<span class="nc bnc" id="L54" title="All 2 branches missed.">        if (studentDetails.getFirstName() != null) {</span>
+<span class="nc" id="L55">            student.setFirstName(studentDetails.getFirstName());</span>
+        }
+<span class="nc bnc" id="L57" title="All 2 branches missed.">        if (studentDetails.getLastName() != null) {</span>
+<span class="nc" id="L58">            student.setLastName(studentDetails.getLastName());</span>
+        }
+<span class="nc bnc" id="L60" title="All 2 branches missed.">        if (studentDetails.getDepartment() != null) {</span>
+<span class="nc" id="L61">            student.setDepartment(studentDetails.getDepartment());</span>
+        }
+<span class="nc" id="L63">        Student updatedStudent = studentRepository.save(student);</span>
+<span class="nc" id="L64">        return ResponseEntity.ok(updatedStudent);</span>
+    }
+
+    @DeleteMapping(&quot;/{id}&quot;)
+    public ResponseEntity&lt;Void&gt; deleteStudent(@PathVariable Long id) {
+<span class="nc bnc" id="L69" title="All 2 branches missed.">        if (!studentRepository.existsById(id)) {</span>
+<span class="nc" id="L70">            return ResponseEntity.notFound().build();</span>
+        }
+<span class="nc" id="L72">        studentRepository.deleteById(id);</span>
+<span class="nc" id="L73">        return ResponseEntity.ok().build();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

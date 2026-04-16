@@ -41,3 +41,296 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 [0m
+2026.04.10 12:08:53 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP' for client Visual Studio Code 1.115.0.[0m
+2026.04.10 12:08:53 INFO  Memory monitor started[0m
+2026.04.10 12:08:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.04.10 12:08:54 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+Apr 10, 2026 12:08:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Apr 10, 2026 12:08:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.04.10 12:11:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:11:54 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java[0m
+2026.04.10 12:11:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+Apr 10, 2026 12:11:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2026.04.10 12:11:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:11:54 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:11:54 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:14 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:16 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:16 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:16 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:16 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:16 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:30 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:34 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java[0m
+2026.04.10 12:17:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:35 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java[0m
+2026.04.10 12:17:35 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:17:35 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:33 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:37 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:37 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:37 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:37 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:41 WARN  Running javac-semanticdb failed for file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Output:
+[0m
+2026.04.10 12:19:41 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java][0m
+2026.04.10 12:19:41 INFO  QDox parse error in file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_qdox-error_12-19-41-743.md")[0m
+2026.04.10 12:19:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:41 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java[0m
+2026.04.10 12:19:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:41 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java[0m
+2026.04.10 12:19:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:42 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:19:54 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:22 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:40 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:40 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:20:40 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:40 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:20:40 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:42 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:20:47 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:31 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:38 WARN  Running javac-semanticdb failed for file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Output:
+[0m
+2026.04.10 12:21:38 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java][0m
+2026.04.10 12:21:38 INFO  QDox parse error in file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_qdox-error_12-21-38-744.md")[0m
+2026.04.10 12:21:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:21:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:39 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:21:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:21:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:23:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:28:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.[0m
+2026.04.10 12:28:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:28:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:28:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:28:50 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java][0m
+2026.04.10 12:28:50 INFO  empty definition using pc, found symbol in pc: fr/takima/training/simpleapi/SimpleApiApplication# (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_empty-definition_12-28-50-957.md")[0m
+2026.04.10 12:28:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:28:50 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java][0m
+2026.04.10 12:28:50 INFO  empty definition using pc, found symbol in pc: fr/takima/training/simpleapi/SimpleApiApplication# (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_empty-definition_12-28-51-075.md")[0m
+2026.04.10 12:29:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:29:34 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java[0m
+Apr 10, 2026 12:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 133
+2026.04.10 12:29:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:29:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:29:35 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:24 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:24 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java][0m
+2026.04.10 12:30:24 INFO  empty definition using pc, found symbol in pc: _empty_/Department#builder# (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_empty-definition_12-30-24-656.md")[0m
+2026.04.10 12:30:24 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:24 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java][0m
+2026.04.10 12:30:24 INFO  empty definition using pc, found symbol in pc: _empty_/Department#builder# (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_empty-definition_12-30-24-753.md")[0m
+2026.04.10 12:30:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:34 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:30:34 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:30:34 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java[0m
+2026.04.10 12:30:34 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java[0m
+2026.04.10 12:30:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:34 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:43 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:44 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:30:44 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java[0m
+2026.04.10 12:30:44 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java[0m
+2026.04.10 12:30:44 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:30:44 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:53 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:30:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:30:53 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:30:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:01 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:01 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:31:01 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:05 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:05 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:31:06 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:15 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:16 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java[0m
+2026.04.10 12:31:15 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:16 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:15 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:47 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:31:47 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:31:47 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:47 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/Application.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:47 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.[0m
+2026.04.10 12:31:48 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:32:14 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:32:14 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:32:14 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:32:19 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:32:19 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:32:20 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:32:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:33:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.[0m
+2026.04.10 12:33:28 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java[0m
+2026.04.10 12:33:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:33:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.10 12:33:41 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java[0m
+2026.04.10 12:33:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:33:46 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.[0m
+2026.04.10 12:33:46 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java[0m
+2026.04.10 12:33:46 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:34:17 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.[0m
+2026.04.10 12:34:17 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java][0m
+2026.04.10 12:34:17 INFO  empty definition using pc, found symbol in pc: com/fasterxml/jackson/annotation/JsonBackReference# (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_empty-definition_12-34-17-408.md")[0m
+2026.04.10 12:34:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.[0m
+2026.04.10 12:34:21 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java[0m
+2026.04.10 12:34:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:34:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:34:28 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java[0m
+2026.04.10 12:34:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:34:52 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/StudentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:34:52 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/DepartmentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:35:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:35:08 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java[0m
+2026.04.10 12:35:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/DepartmentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/DepartmentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/StudentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/DepartmentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/StudentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/DepartmentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/StudentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/repository/StudentRepository.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:09 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:09 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java][0m
+2026.04.10 12:36:09 INFO  empty definition using pc, found symbol in pc: com/fasterxml/jackson/annotation/JsonProperty# (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_empty-definition_12-36-09-543.md")[0m
+2026.04.10 12:36:10 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.[0m
+2026.04.10 12:36:10 INFO  Created report: Optional[file:///Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java][0m
+2026.04.10 12:36:10 INFO  empty definition using pc, found symbol in pc: com/fasterxml/jackson/annotation/JsonIgnore# (full report at: "/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/.metals/.reports/metals-full/2026-04-10/r_empty-definition_12-36-10-080.md")[0m
+2026.04.10 12:36:17 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java[0m
+2026.04.10 12:36:17 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java[0m
+2026.04.10 12:36:17 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java[0m
+2026.04.10 12:36:17 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java[0m
+2026.04.10 12:36:17 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java[0m
+2026.04.10 12:36:17 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java[0m
+2026.04.10 12:36:17 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 14:40:19 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+Apr 10, 2026 2:40:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 208
+2026.04.10 14:40:19 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 14:40:19 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 15:41:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 15:41:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.10 15:41:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.11 11:04:43 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.11 11:04:43 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.11 11:04:43 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+Apr 11, 2026 11:04:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 214
+Apr 11, 2026 11:04:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+2026.04.11 11:05:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.11 11:05:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.11 11:05:41 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.[0m
+2026.04.12 23:27:53 INFO  Shutting down server[0m
+2026.04.12 23:27:53 INFO  Memory monitor stopped[0m
+2026.04.12 23:27:53 INFO  shutting down Metals[0m
+2026.04.12 23:27:53 INFO  Exiting server[0m
+2026.04.12 23:27:54 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2026.04.13 19:26:51 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP' for client Visual Studio Code 1.115.0.
+2026.04.13 19:26:51 INFO  Memory monitor started
+2026.04.13 19:26:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.13 19:26:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+Apr 13, 2026 7:26:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.04.13 19:26:55 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.13 19:26:55 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.13 19:26:55 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.13 19:26:55 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+Apr 13, 2026 7:26:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Apr 13, 2026 7:26:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Apr 13, 2026 7:26:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Apr 13, 2026 7:26:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2026.04.13 19:26:55 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.13 19:26:55 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.13 19:26:56 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.13 23:17:34 INFO  Shutting down server
+2026.04.13 23:17:34 INFO  Memory monitor stopped
+2026.04.13 23:17:34 INFO  shutting down Metals
+2026.04.13 23:17:34 INFO  Exiting server
+2026.04.13 23:17:34 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.04.16 13:36:58 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP' for client Visual Studio Code 1.115.0.
+2026.04.16 13:36:58 INFO  Memory monitor started
+2026.04.16 13:36:59 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 13:36:59 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:00 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:00 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+Apr 16, 2026 1:37:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Apr 16, 2026 1:37:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.04.16 13:37:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:04 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.16 13:37:05 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
