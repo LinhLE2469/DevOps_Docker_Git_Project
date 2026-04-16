@@ -1,0 +1,39 @@
+name: Test & Quality Gate
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+
+jobs:
+  # ========== CI PHASE: Unit & Integration Tests ==========
+  test-backend:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Build and run tests with Maven
+        run: mvn -B clean verify --file backend/pom.xml
+
+  # ========== CI PHASE: Quality Gate (SonarCloud) ==========
+  sonar-analysis:
+    needs: test-backend
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Run SonarCloud analysis
+        run: mvn -B verify sonar:sonar -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }} -Dsonar.organization=${{ secrets.SONAR_ORGANIZATION }} -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.SONAR_TOKEN }} --file backend/pom.xml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
