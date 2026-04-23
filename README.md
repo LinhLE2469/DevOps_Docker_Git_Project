@@ -114,4 +114,26 @@ Same process for ./Docker_Compose/proxy folder
 Creates: yourusername/tp-devops-httpd:latest
 
 
+┌─────────────────────────────────┐
+│  GitHub Actions Runner          │
+│  (ubuntu-24.04)                 │
+├─────────────────────────────────┤
+│ Job 1: Deploy                   │
+│ - Docker đã cài sẵn ✅          │
+│ - Build 3 images                │
+│ - Push lên DockerHub            │
+└─────────────────────────────────┘
+         ↓ Push images
+┌─────────────────────────────────┐
+│  Remote Server                  │
+│  (ip-10-0-1-69)                 │
+├─────────────────────────────────┤
+│ Job 2: Deploy-server            │
+│ - SSH vào server                │
+│ - Run Ansible playbook          │
+│   → Install Docker (nếu chưa)   │
+│   → Pull images từ DockerHub    │
+│   → Start containers            │
+└─────────────────────────────────┘
+
 

@@ -334,3 +334,237 @@ WARNING: Unmatched cancel notification for request id 13
 2026.04.16 13:37:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
 2026.04.16 13:37:04 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
 2026.04.16 13:37:05 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.17 11:56:34 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP' for client Visual Studio Code 1.115.0.
+2026.04.17 11:56:34 INFO  Memory monitor started
+2026.04.17 11:56:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.17 11:56:38 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/StudentsServiceTest.java. Using fallback presentation compiler.
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/unit/DepartmentsServiceTest.java. Using fallback presentation compiler.
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/StudentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.
+2026.04.17 11:56:45 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.
+Apr 17, 2026 12:03:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:06:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:16:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:16:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:17:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:19:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:19:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:20:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:21:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:31:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:31:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:31:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:32:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 17, 2026 12:39:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 20, 2026 11:11:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.20 23:11:35 INFO  Shutting down server
+2026.04.20 23:11:35 INFO  Memory monitor stopped
+2026.04.20 23:11:35 INFO  shutting down Metals
+2026.04.20 23:11:35 INFO  Exiting server
+2026.04.23 10:25:14 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP' for client Visual Studio Code 1.115.0.
+2026.04.23 10:25:14 INFO  Memory monitor started
+2026.04.23 10:25:14 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.23 10:25:14 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.23 10:25:15 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.23 10:25:17 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java
+2026.04.23 10:25:17 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.
+2026.04.23 10:25:32 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.
+Apr 23, 2026 10:29:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:29:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:29:31 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:31:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:31:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:32:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:34:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:38:27 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:39:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:41:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 10:45:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:13:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.23 11:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:39 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.23 11:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+Apr 23, 2026 11:20:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2026.04.23 11:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:48 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:48 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java
+2026.04.23 11:20:48 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.23 11:20:48 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.23 11:20:48 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.23 11:20:48 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.23 11:20:48 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.23 11:20:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.23 11:20:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:50 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.23 11:20:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:50 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:53 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java
+2026.04.23 11:20:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:20:53 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:33 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.23 11:21:33 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:21:36 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:22:25 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:22:26 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.23 11:22:26 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:22:26 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.23 11:22:26 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:22:26 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:22:26 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:03 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+Apr 23, 2026 11:24:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+2026.04.23 11:24:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:03 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:05 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:24 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:27 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:27 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:30 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:38 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:39 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:40 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:24:55 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.23 11:26:42 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 11:45:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 23, 2026 12:17:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
