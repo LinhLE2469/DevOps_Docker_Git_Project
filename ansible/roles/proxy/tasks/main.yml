@@ -1,0 +1,15 @@
+---
+# tasks file for roles/proxy
+- name: Run proxy container
+  docker_container:
+    name: proxy
+    image: linh2409/tp-devops-httpd:latest
+    networks:
+      - name: frontend
+    ports:
+      - "80:80"
+    state: started
+    restart_policy: unless-stopped
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+

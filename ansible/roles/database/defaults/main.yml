@@ -1,0 +1,5 @@
+---
+# Database default variables
+postgres_db: db
+postgres_user: usr
+postgres_password: pwd

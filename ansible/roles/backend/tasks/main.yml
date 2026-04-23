@@ -1,0 +1,14 @@
+---
+# tasks file for roles/backend
+- name: Run backend API container
+  docker_container:
+    name: backend
+    image: linh2409/tp-devops-simple-api:latest
+    networks:
+      - name: frontend
+      - name: backend
+    state: started
+    restart_policy: unless-stopped
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+

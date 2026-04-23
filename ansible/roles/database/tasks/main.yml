@@ -1,0 +1,19 @@
+---
+# tasks file for roles/database
+- name: Run database container
+  docker_container:
+    name: database
+    image: linh2409/tp-devops-database:latest
+    networks:
+      - name: backend
+    env:
+      POSTGRES_DB: "{{ postgres_db }}"
+      POSTGRES_USER: "{{ postgres_user }}"
+      POSTGRES_PASSWORD: "{{ postgres_password }}"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    state: started
+    restart_policy: unless-stopped
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+

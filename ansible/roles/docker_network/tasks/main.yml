@@ -1,0 +1,19 @@
+---
+# tasks file for roles/docker_network
+- name: Create frontend network
+  docker_network:
+    name: frontend
+    driver: bridge
+    state: present
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
+- name: Create backend network
+  docker_network:
+    name: backend
+    driver: bridge
+    internal: yes
+    state: present
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+

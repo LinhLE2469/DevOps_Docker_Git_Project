@@ -1,0 +1,9 @@
+all:
+  vars:
+    ansible_user: admin
+    ansible_ssh_private_key_file: ~/.ssh/takima_thi_le_key
+  children:
+    prod:
+      hosts:
+        takima_server:
+          ansible_host: thi.le.takima.school
