@@ -1,4 +1,4 @@
-name: Deploy 
+name: Build & Push Images
 on:
   # Trigger only after test.yml succeeds on main branch
   workflow_run:
@@ -7,12 +7,9 @@ on:
     branches: [main]
 
 jobs:
-  # ========================================
-  # Job 1: Build & Push Docker Images
-  # ========================================
-  # Triggered when test.yml workflow succeeds
-  # Builds 3 Docker images and pushes to DockerHub
-  deploy:
+  # Triggered when test.yml workflow succeeds.
+  # Builds and pushes all runtime images to DockerHub.
+  build-and-push:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-24.04
     strategy:
@@ -45,32 +42,3 @@ jobs:
           context: ${{ matrix.context }}
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ matrix.image }}:latest
           push: true
-
-  # ========================================
-  # Job 2: Deploy to Remote Server
-  # ========================================
-  # Runs after deploy job completes successfully
-  # Connects via SSH and runs Ansible playbook
-  deploy-server:
-    needs: deploy
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup SSH key
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.ANSIBLE_PRIVATE_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H ${{ secrets.ANSIBLE_INVENTORY_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
-
-      - name: Install Ansible
-        run: sudo apt-get update && sudo apt-get install -y ansible
-
-      - name: Deploy with Ansible
-        run: |
-          cd ansible
-          ansible-playbook -i "${{ secrets.ANSIBLE_INVENTORY_HOST }}," \
-            -u admin --private-key ~/.ssh/deploy_key \
-            -e ansible_python_interpreter=/usr/bin/python3 \
-            playbook.yml

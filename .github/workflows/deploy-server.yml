@@ -1,0 +1,33 @@
+name: Deploy Server
+
+on:
+  workflow_run:
+    workflows: ["Build & Push Images"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy-server:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.ANSIBLE_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.ANSIBLE_INVENTORY_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
+
+      - name: Install Ansible
+        run: sudo apt-get update && sudo apt-get install -y ansible
+
+      - name: Deploy with Ansible
+        run: |
+          cd ansible
+          ansible-playbook -i "${{ secrets.ANSIBLE_INVENTORY_HOST }}," \
+            -u admin --private-key ~/.ssh/deploy_key \
+            -e ansible_python_interpreter=/usr/bin/python3 \
+            playbook.yml

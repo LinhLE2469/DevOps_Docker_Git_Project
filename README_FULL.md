@@ -278,9 +278,16 @@ For detailed information, see [ansible/README_PLAYBOOK.md](ansible/README_PLAYBO
 
 ## 🔄 CI/CD Pipeline
 
-### GitHub Actions Workflow: `.github/workflows/deploy.yml`
+### GitHub Actions Workflows
 
-**Trigger**: Automatically runs when `Test & Quality Gate` workflow succeeds on `main` branch.
+- `.github/workflows/test.yml`: CI tests and quality gate
+- `.github/workflows/deploy.yml`: Build and push Docker images
+- `.github/workflows/deploy-server.yml`: Deploy to production server with Ansible
+
+**Triggers:**
+- `deploy.yml` runs automatically when `Test & Quality Gate` succeeds on `main`.
+- `deploy-server.yml` runs automatically when `Build & Push Images` succeeds on `main`.
+- `deploy-server.yml` can also be run manually from GitHub Actions (`workflow_dispatch`).
 
 ### Pipeline Stages
 
@@ -323,13 +330,15 @@ Configure these in GitHub repository settings (`Settings > Secrets and variables
         ↓
 2. GitHub Actions runs tests (test.yml)
         ↓
-3. If tests pass → Deploy workflow triggers
+3. If tests pass → Build & Push Images workflow triggers
         ↓
 4. Build & Push Docker images to DockerHub
         ↓
-5. SSH to production server & run Ansible
+5. Deploy Server workflow triggers (or run manually)
         ↓
-6. Ansible deploys latest containers
+6. SSH to production server & run Ansible
+        ↓
+7. Ansible deploys latest containers
         ↓
 7. Application updated in production! ✅
 ```
@@ -345,7 +354,8 @@ Configure these in GitHub repository settings (`Settings > Secrets and variables
 ├── .github/
 │   └── workflows/
 │       ├── test.yml                  # CI testing pipeline
-│       └── deploy.yml                # CD deployment pipeline
+│       ├── deploy.yml                # Build & push Docker images
+│       └── deploy-server.yml         # Deploy images to server (Ansible)
 │
 ├── backend/
 │   ├── Dockerfile                    # Spring Boot image

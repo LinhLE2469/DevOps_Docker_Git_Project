@@ -631,3 +631,7 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 2026.04.24 15:51:19 INFO  Memory monitor stopped
 2026.04.24 15:51:19 INFO  shutting down Metals
 2026.04.24 15:51:19 INFO  Exiting server
+2026.04.24 15:52:22 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP' for client Visual Studio Code 1.115.0.
+2026.04.24 15:52:22 INFO  Memory monitor started
+2026.04.24 15:52:22 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.24 15:52:26 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
