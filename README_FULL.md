@@ -42,27 +42,37 @@ This project demonstrates enterprise-grade DevOps practices with:
 
 ### Local Development (Docker Compose)
 ```
-┌─────────────────────────────────────────┐
-│           Host Machine                  │
-│  ┌─────────────────────────────────┐   │
-│  │    Docker Network               │   │
-│  │  ┌──────────────────────────┐  │   │
-│  │  │   Proxy (Apache httpd)   │  │   │
-│  │  │ :80 (exposed to :8080)   │  │   │
-│  │  └────────────┬─────────────┘  │   │
-│  │               │                │   │
-│  │  ┌────────────▼─────────────┐  │   │
-│  │  │  Backend (Spring Boot)   │  │   │
-│  │  │  :8080 (internal only)   │  │   │
-│  │  └────────────┬─────────────┘  │   │
-│  │               │                │   │
-│  │  ┌────────────▼─────────────┐  │   │
-│  │  │  Database (PostgreSQL)   │  │   │
-│  │  │  :5432 (internal only)   │  │   │
-│  │  └──────────────────────────┘  │   │
-│  └─────────────────────────────────┘   │
-└─────────────────────────────────────────┘
+┌──────────────────────────────────────────────────┐
+│              Host Machine (:8080)                │
+│  ┌────────────────────────────────────────────┐ │
+│  │    Docker Network                          │ │
+│  │  ┌───────────────────────────────────────┐ │ │
+│  │  │   Proxy (Apache httpd) :80            │ │ │
+│  │  │   • Reverse proxy & routing           │ │ │
+│  │  └──────┬──────────────────────┬────────┘ │ │
+│  │         │                      │          │ │
+│  │    /api/*              /*      │          │ │
+│  │    /dept*              (root)  │          │ │
+│  │         │                      │          │ │
+│  │  ┌──────▼──────┐    ┌──────────▼──────┐  │ │
+│  │  │  Backend    │    │  Frontend       │  │ │
+│  │  │ Spring Boot │    │  Vue.js+Nginx   │  │ │
+│  │  │ :8080       │    │  :80 (internal) │  │ │
+│  │  └──────┬──────┘    └─────────────────┘  │ │
+│  │         │                                │ │
+│  │  ┌──────▼──────────────────────────────┐ │ │
+│  │  │   Database (PostgreSQL)             │ │ │
+│  │  │   :5432 (internal only)             │ │ │
+│  │  └─────────────────────────────────────┘ │ │
+│  └────────────────────────────────────────────┘ │
+└──────────────────────────────────────────────────┘
 ```
+
+**Routing Details:**
+- Client → `http://localhost:8080/` → Proxy routes to Frontend (Vue.js static files)
+- Client → `http://localhost:8080/departments/{name}` → Proxy routes to Backend API
+- Client → `http://localhost:8080/departments/{name}/students` → Proxy routes to Backend API
+- Backend ← → Database (internal network, no external access)
 
 ### Production Deployment (Ansible)
 ```
@@ -203,6 +213,7 @@ ansible/
 │   ├── docker_network/          # Create networks
 │   ├── database/                # Start database container
 │   ├── backend/                 # Start backend container
+    ├── front/                   # Start front container
 │   └── proxy/                   # Start proxy container
 └── README_PLAYBOOK.md           # Detailed documentation
 ```
@@ -242,7 +253,7 @@ docker ps
 docker logs -f <container-name>
 ```
 
-### What Ansible Does
+### What Ansible Does for production
 
 1. ✅ Installs Docker and Docker Compose
 2. ✅ Creates Docker networks
@@ -277,10 +288,11 @@ For detailed information, see [ansible/README_PLAYBOOK.md](ansible/README_PLAYBO
 ```
 ✓ Checkout code
 ✓ Login to DockerHub
-✓ Build 3 images:
-  - Backend  → tp-devops-simple-api:latest
-  - Database → tp-devops-database:latest
-  - Proxy    → tp-devops-httpd:latest
+✓ Build 4 images:
+  - Backend   → tp-devops-simple-api:latest
+  - Database  → tp-devops-database:latest
+  - Frontend  → tp-devops-front:latest
+  - Proxy     → tp-devops-httpd:latest
 ✓ Push all images to DockerHub
 ```
 
@@ -368,14 +380,16 @@ Configure these in GitHub repository settings (`Settings > Secrets and variables
 └── ansible/
     ├── playbook.yml                  # Main deployment playbook
     ├── README_PLAYBOOK.md            # Detailed Ansible docs
+    ├── VAULT_SETUP.md                # Ansible Vault encryption guide
     ├── inventories/
     │   └── setup.yml                 # Host inventory
     └── roles/
-        ├── docker/
-        ├── docker_network/
-        ├── database/
-        ├── backend/
-        └── proxy/
+        ├── docker/                   # Install Docker
+        ├── docker_network/           # Create Docker networks
+        ├── database/                 # Start database container
+        ├── backend/                  # Start backend container
+        ├── frontend/                 # Start frontend container (NEW)
+        └── proxy/                    # Start proxy container
 ```
 
 ---
