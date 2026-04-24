@@ -585,3 +585,49 @@ INFO: Unsupported notification method: $/setTrace
 2026.04.24 12:00:37 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
 2026.04.24 12:00:54 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
 2026.04.24 12:03:26 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.24 15:07:09 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:09:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/StudentController.java. Using fallback presentation compiler.
+2026.04.24 15:09:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:09:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Student.java. Using fallback presentation compiler.
+2026.04.24 15:09:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/model/Department.java. Using fallback presentation compiler.
+2026.04.24 15:09:21 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/test/java/fr/takima/training/sampleapplication/IT/DepartmentControllerTestIT.java. Using fallback presentation compiler.
+Apr 24, 2026 3:09:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.24 15:09:59 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.24 15:14:14 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:14:14 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:15:09 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:15:09 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:15:09 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:16:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.24 15:16:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.24 15:16:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.24 15:16:28 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/GreetingController.java. Using fallback presentation compiler.
+2026.04.24 15:21:08 INFO  no build target found for /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java. Using fallback presentation compiler.
+2026.04.24 15:21:08 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.24 15:21:10 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.24 15:46:15 INFO  Shutting down server
+2026.04.24 15:46:15 INFO  Memory monitor stopped
+2026.04.24 15:46:15 INFO  shutting down Metals
+2026.04.24 15:46:15 INFO  Exiting server
+2026.04.24 15:46:15 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.04.24 15:46:37 INFO  Started: Metals version 1.6.7 in folders '/Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP' for client Visual Studio Code 1.115.0.
+2026.04.24 15:46:37 INFO  Memory monitor started
+2026.04.24 15:46:39 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.24 15:46:41 WARN  no build target for: /Users/linhle/LinhLe/Apprentisage/EFREI/S2_2026/DevOps/Docker/TP/backend/src/main/java/fr/takima/training/simpleapi/controller/DepartmentController.java
+2026.04.24 15:51:19 INFO  Shutting down server
+2026.04.24 15:51:19 INFO  Memory monitor stopped
+2026.04.24 15:51:19 INFO  shutting down Metals
+2026.04.24 15:51:19 INFO  Exiting server

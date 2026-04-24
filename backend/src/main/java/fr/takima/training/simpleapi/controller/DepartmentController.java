@@ -22,6 +22,11 @@ public class DepartmentController {
         this.departmentRepository = departmentRepository;
     }
 
+    @GetMapping
+    public ResponseEntity<List<Department>> getDepartments() {
+        return ResponseEntity.ok(departmentRepository.findAll());
+    }
+
     @GetMapping("/{name}")
     public ResponseEntity<Department> getDepartmentByName(@PathVariable String name) {
         Optional<Department> department = departmentRepository.findByName(name);
