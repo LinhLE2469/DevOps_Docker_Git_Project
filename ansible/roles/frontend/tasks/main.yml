@@ -1,0 +1,12 @@
+---
+# tasks file for roles/frontend
+- name: Run frontend service
+  docker_container:
+    name: front
+    image: linh2409/tp-devops-front:latest
+    networks:
+      - name: frontend
+    state: started
+    restart_policy: unless-stopped
+  vars:
+    ansible_python_interpreter: /usr/bin/python3

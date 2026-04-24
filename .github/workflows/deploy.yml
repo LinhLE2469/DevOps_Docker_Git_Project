@@ -1,4 +1,4 @@
-name: Deploy - Build & Push Docker
+name: Deploy 
 on:
   # Trigger only after test.yml succeeds on main branch
   workflow_run:
@@ -24,6 +24,9 @@ jobs:
           - name: database
             context: ./database
             image: tp-devops-database
+          - name: frontend
+            context: ./front
+            image: tp-devops-front
           - name: httpd
             context: ./proxy
             image: tp-devops-httpd

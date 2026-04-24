@@ -38,6 +38,19 @@ services:
     # backend is now internal-only; the proxy will expose host port 8080
     restart: unless-stopped
 
+  front:
+    build: ./front
+    image: my-front:1.0
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost/ || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - frontend
+    restart: unless-stopped
+
   proxy:
     build: ./proxy
     image: my-proxy:1.0
@@ -51,6 +64,8 @@ services:
       start_period: 10s
     depends_on:
       backend:
+        condition: service_healthy
+      front:
         condition: service_healthy
     networks:
       - frontend

@@ -7,4 +7,5 @@
     - docker_network
     - database
     - backend
+    - frontend
     - proxy
