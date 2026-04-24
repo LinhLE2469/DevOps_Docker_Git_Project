@@ -1,9 +1,29 @@
 ---
 # tasks file for roles/proxy
+- name: Create proxy config directory on host
+  file:
+    path: /opt/tp-devops/proxy
+    state: directory
+    mode: "0755"
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
+- name: Copy Apache proxy config to host
+  copy:
+    src: httpd.conf
+    dest: /opt/tp-devops/proxy/httpd.conf
+    mode: "0644"
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
 - name: Run proxy container
   docker_container:
     name: proxy
     image: linh2409/tp-devops-httpd:latest
+    pull: true
+    recreate: true
+    volumes:
+      - /opt/tp-devops/proxy/httpd.conf:/usr/local/apache2/conf/httpd.conf:ro
     networks:
       - name: frontend
     ports:

@@ -4,6 +4,8 @@
   docker_container:
     name: backend
     image: linh2409/tp-devops-simple-api:latest
+    pull: true
+    recreate: true
     networks:
       - name: frontend
       - name: backend

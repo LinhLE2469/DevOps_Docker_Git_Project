@@ -4,6 +4,8 @@
   docker_container:
     name: database
     image: linh2409/tp-devops-database:latest
+    pull: true
+    recreate: true
     networks:
       - name: backend
     env:
